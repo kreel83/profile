@@ -1,0 +1,177 @@
+body {
+
+  background-color: #3DA4E4;
+
+}
+
+.header {
+  background: url('images/1833.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 30px 30px 0 0;
+}
+
+
+.first {
+  border-radius: 30px 30px 0 0;
+}
+
+
+.last {
+  border-radius: 0 0 30px 30px;
+}
+.header img {
+  margin-top: 100px;
+  border: 5px solid white;
+
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.padding {
+  padding: 35px;
+}
+.down {
+  margin-top: 100px;
+}
+
+.card {
+  background-color: #fff;
+
+  margin-bottom: 20px;
+
+}
+
+strong {
+  color: #3EA6E5;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.rounded {
+  border-radius: 50%
+}
+
+.profile {
+
+  padding: 30px;
+}
+.comment {
+  margin: 0 auto;
+  width: 50%;
+  border: 3px solid #4EC0E9;
+  box-shadow: 5px 5px 3px #389CE3;
+  padding: 50px;
+  border-radius: 10px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  letter-spacing: 6px;
+}
+
+.social {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.lewagon {
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 25px;
+  background-color: #4EC0E9;
+  color: white;
+  border-radius: 8px;
+
+}
+
+.lewagon:hover {
+  background-color: #389CE3 ;
+}
+
+.social div:hover{
+
+  color: blue;
+}
+
+
+.social div{
+
+  list-style: none;
+  color: purple;
+  font-size: 50px;
+  margin-left: 50px;
+  height: auto;
+
+}
+.social div:first-child{
+  margin-left: 0;
+}
+
+.social div i {
+  color: purple;
+}
+
+.social div i:hover {
+  color: pink;
+}
+
+
+
+@media (max-width: 700px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 95%;
+  }
+  .comment {
+    border : none;
+    width: 100%;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .header img {
+    margin-top: 150px;
+    border: 5px solid white;
+
+  }
+  .down {
+    font-size: 10px;
+    margin-top: 50px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .social div{
+    font-size: 30px;
+  }
+}
+
